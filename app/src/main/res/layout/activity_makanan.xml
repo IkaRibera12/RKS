@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Makanan">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/nasi_gorengas"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/backbutton" />
+
+        <Button
+            android:id="@+id/btncari"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/search" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_box"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nasi Goreng Spesial HOt"
+            android:textSize="24sp" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#FFF" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/nasi_gorengas" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="4dp"
+                        android:text="Nasi Goreng Spesial Hot"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="56dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:text="pedas"
+                        android:layout_marginTop="4dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RP 20.000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="30dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:id="@+id/tvmin"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    android:background="@drawable/min"
+                    android:layout_marginStart="250dp"/>
+                <TextView
+                    android:id="@+id/tvview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"/>
+                <TextView
+                    android:id="@+id/tvplus"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    android:background="@drawable/plush"
+                    android:layout_marginStart="20dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/nasi_gorengas" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="4dp"
+                        android:text="Nasi Goreng Spesial Hot"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="56dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:text="pedas"
+                        android:layout_marginTop="4dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RP 20.000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="30dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:id="@+id/tvmin1"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    android:background="@drawable/min"
+                    android:layout_marginStart="250dp"/>
+                <TextView
+                    android:id="@+id/tvview1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"/>
+                <TextView
+                    android:id="@+id/tvplus1"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    android:background="@drawable/plush"
+                    android:layout_marginStart="20dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/nasi_gorengas" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="4dp"
+                        android:text="Nasi Goreng Spesial Hot"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:layout_width="56dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:text="pedas"
+                        android:layout_marginTop="4dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RP 20.000"
+                        android:textSize="16sp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginStart="30dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:id="@+id/tvmin2"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    android:background="@drawable/min"
+                    android:layout_marginStart="250dp"/>
+                <TextView
+                    android:id="@+id/tvview2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"/>
+                <TextView
+                    android:id="@+id/tvplus2"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    android:background="@drawable/plush"
+                    android:layout_marginStart="20dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnbayar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/subtotal"
+            android:layout_marginTop="30dp"
+            android:onClick="btnbayar"
+            tools:ignore="OnClick">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sub total"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:textSize="16sp"
+                android:textColor="#FFF"/>
+            <TextView
+                android:id="@+id/tvtotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="16sp"
+                android:textColor="#FFF"
+                android:layout_gravity="center"
+                android:layout_marginStart="80dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="item"
+                android:textSize="16sp"
+                android:textColor="#FFF"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"/>
+            <TextView
+                android:id="@+id/totalharga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp 20.000"
+                android:textSize="16sp"
+                android:textColor="#FFF"
+                android:layout_gravity="center"
+                android:layout_marginStart="90dp"/>
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
